@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: Test.DichVuUnitTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.43 s <<< FAILURE! - in Test.DichVuUnitTest
+Test.DichVuUnitTest.test2  Time elapsed: 0.348 s  <<< ERROR!
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mycompany.qlnhahang/Test.DichVuUnitTest.test2(DichVuUnitTest.java:50)
+
+Test.DichVuUnitTest.test3  Time elapsed: 0.021 s  <<< ERROR!
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mycompany.qlnhahang/Test.DichVuUnitTest.test3(DichVuUnitTest.java:61)
+
+Test.DichVuUnitTest.test4  Time elapsed: 0.019 s  <<< ERROR!
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mycompany.qlnhahang/Test.DichVuUnitTest.test4(DichVuUnitTest.java:70)
+
+Test.DichVuUnitTest.TestUniqueTenDV  Time elapsed: 0.018 s  <<< ERROR!
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mycompany.qlnhahang/Test.DichVuUnitTest.TestUniqueTenDV(DichVuUnitTest.java:30)
+
+Test.DichVuUnitTest.TestGetDichVuByTenDV  Time elapsed: 0.018 s  <<< ERROR!
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mycompany.qlnhahang/Test.DichVuUnitTest.TestGetDichVuByTenDV(DichVuUnitTest.java:80)
+
